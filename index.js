@@ -12,8 +12,10 @@ app.post('/v1/product-stocks/bulk-update', (req, res) => {
   console.log('Received POST request:', req.body)
   console.log('Total products:', req.body.stocks?.length || 0)
 
-  // Send 'OK' response
-  res.status(200).send('OK')
+  // Send JSON response
+  res.status(200).json({
+    message: 'Success'
+  })
 })
 
 app.post('/v1/product-stocks/stock-by-sku', (req, res) => {
