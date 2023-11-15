@@ -31,7 +31,8 @@ app.post('/v1/product-stocks/bulk-get', (req, res) => {
     "TELUR-2023-11": 20,
   }
 
-  const mockResponse = skus.map((sku) => ({ sku, stock: master_sku[sku] }))
+  const mockResponse = skus.map((sku) => ({ sku, stock: master_sku[sku] != undefined ? master_sku[sku] : 0 }))
+
   res.status(200).send({
     stocks: mockResponse
   })
