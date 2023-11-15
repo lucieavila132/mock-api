@@ -18,7 +18,7 @@ app.post('/v1/product-stocks/bulk-update', (req, res) => {
   })
 })
 
-app.post('/v1/product-stocks/stock-by-sku', (req, res) => {
+app.post('/v1/product-stocks/bulk-get', (req, res) => {
   const skus = req.body.product_skus
   console.log('Received POST request:', req.body)
   console.log('Total products:', skus.length)
@@ -26,7 +26,7 @@ app.post('/v1/product-stocks/stock-by-sku', (req, res) => {
   const mockResponse = skus.map((sku) => ({ sku, stock: 10 }))
 
   res.status(200).send({
-    data: mockResponse
+    stocks: mockResponse
   })
 })
 
