@@ -19,7 +19,7 @@ app.post('/v1/product-stocks/bulk-update', (req, res) => {
 })
 
 app.post('/v1/product-stocks/bulk-get', (req, res) => {
-  const skus = req.body.product_skus
+  const skus = req.body.sku_list
   console.log('Received POST request:', req.body)
   console.log('Total products:', skus.length)
 
