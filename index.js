@@ -260,12 +260,6 @@ const searchProductsResponse = {
 const productData1730258731339712354 = {
   code: 0,
   data: {
-    integrated_platform_statuses: [
-      {
-        platform: "TOKOPEDIA",
-        status: "ACTIVATE"
-      }
-    ],
     category_chains: [
       {
         id: "824328",
@@ -331,9 +325,198 @@ const productData1730258731339712354 = {
           "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/2a9f39a31a1442d79ea872c7037e29fb~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
         ],
         width: 800
+      },
+      {
+        height: 800,
+        thumb_urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/25f7b960b6074a528ed8533c2c59b150~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/25f7b960b6074a528ed8533c2c59b150~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+        ],
+        uri: "tos-alisg-i-aphluv4xwc-sg/25f7b960b6074a528ed8533c2c59b150",
+        urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/25f7b960b6074a528ed8533c2c59b150~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/25f7b960b6074a528ed8533c2c59b150~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+        ],
+        width: 800
+      },
+      {
+        height: 1742,
+        thumb_urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/c68c7d566c2541a1b3627ccf78801d90~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/c68c7d566c2541a1b3627ccf78801d90~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+        ],
+        uri: "tos-alisg-i-aphluv4xwc-sg/c68c7d566c2541a1b3627ccf78801d90",
+        urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/c68c7d566c2541a1b3627ccf78801d90~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/c68c7d566c2541a1b3627ccf78801d90~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+        ],
+        width: 1742
       }
-    ]
-  }
+    ],
+    manufacturer_ids: [],
+    package_dimensions: {
+      height: "0",
+      length: "0",
+      unit: "CENTIMETER",
+      width: "0"
+    },
+    package_weight: {
+      unit: "KILOGRAM",
+      value: "0.2"
+    },
+    recommended_categories: [],
+    responsible_person_ids: [],
+    size_chart: {
+      template: {
+        id: "7423657180433532693"
+      }
+    },
+    skus: [
+      {
+        global_listing_policy: {
+          inventory_type: "EXCLUSIVE",
+          price_sync: false
+        },
+        id: "1730258812394899298",
+        inventory: [
+          {
+            quantity: 701,
+            warehouse_id: "7419669855966447366"
+          }
+        ],
+        pre_sale: {
+          fulfillment_type: {
+            handling_duration_days: 0
+          },
+          type: "PRE_ORDER"
+        },
+        price: {
+          currency: "IDR",
+          sale_price: "75000",
+          tax_exclusive_price: "75000"
+        },
+        sales_attributes: [
+          {
+            id: "100000",
+            name: "Warna",
+            sku_img: {
+              height: 700,
+              thumb_urls: [
+                "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/71d54d094f0e47468cc9c18524c23f28~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+                "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/71d54d094f0e47468cc9c18524c23f28~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+              ],
+              uri: "tos-alisg-i-aphluv4xwc-sg/71d54d094f0e47468cc9c18524c23f28",
+              urls: [
+                "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/71d54d094f0e47468cc9c18524c23f28~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+                "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/71d54d094f0e47468cc9c18524c23f28~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+              ],
+              width: 700
+            },
+            value_id: "6926865475716531970",
+            value_name: "Hitam"
+          }
+        ],
+        seller_sku: "POLBLACK"
+      },
+      {
+        global_listing_policy: {
+          inventory_type: "EXCLUSIVE",
+          price_sync: false
+        },
+        id: "1730258812394964834",
+        inventory: [
+          {
+            quantity: 393,
+            warehouse_id: "7419669855966447366"
+          }
+        ],
+        pre_sale: {
+          fulfillment_type: {
+            handling_duration_days: 0
+          },
+          type: "PRE_ORDER"
+        },
+        price: {
+          currency: "IDR",
+          sale_price: "75000",
+          tax_exclusive_price: "75000"
+        },
+        sales_attributes: [
+          {
+            id: "100000",
+            name: "Warna",
+            sku_img: {
+              height: 720,
+              thumb_urls: [
+                "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/13739e6f8f1146feb7c9c14b9bb9a501~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+                "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/13739e6f8f1146feb7c9c14b9bb9a501~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+              ],
+              uri: "tos-alisg-i-aphluv4xwc-sg/13739e6f8f1146feb7c9c14b9bb9a501",
+              urls: [
+                "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/13739e6f8f1146feb7c9c14b9bb9a501~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+                "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/13739e6f8f1146feb7c9c14b9bb9a501~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+              ],
+              width: 720
+            },
+            value_id: "6930950974764861185",
+            value_name: "Putih"
+          }
+        ],
+        seller_sku: "POLWHITE"
+      },
+      {
+        global_listing_policy: {
+          inventory_type: "EXCLUSIVE",
+          price_sync: false
+        },
+        id: "1730258812395030370",
+        inventory: [
+          {
+            quantity: 186,
+            warehouse_id: "7419669855966447366"
+          }
+        ],
+        pre_sale: {
+          fulfillment_type: {
+            handling_duration_days: 0
+          },
+          type: "PRE_ORDER"
+        },
+        price: {
+          currency: "IDR",
+          sale_price: "75000",
+          tax_exclusive_price: "75000"
+        },
+        sales_attributes: [
+          {
+            id: "100000",
+            name: "Warna",
+            sku_img: {
+              height: 800,
+              thumb_urls: [
+                "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/ff5323adc8f94d7f93dac14c70af72ef~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+                "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/ff5323adc8f94d7f93dac14c70af72ef~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+              ],
+              uri: "tos-alisg-i-aphluv4xwc-sg/ff5323adc8f94d7f93dac14c70af72ef",
+              urls: [
+                "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/ff5323adc8f94d7f93dac14c70af72ef~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+                "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/ff5323adc8f94d7f93dac14c70af72ef~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+              ],
+              width: 800
+            },
+            value_id: "6926865445131781889",
+            value_name: "Terracota"
+          }
+        ],
+        seller_sku: "POLTERRA"
+      }
+    ],
+    status: "ACTIVATE",
+    title: "Kaos Polos Tipis Dingin Nyaman Pria dan Wanita - Oblong",
+    update_time: 1728456308
+  },
+  message: "Success",
+  request_id: "20241122060159919C693D6FD568083F50"
 };
 
 const productData1730208665281595234 = {
