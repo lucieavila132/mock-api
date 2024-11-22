@@ -858,43 +858,19 @@ app.get('/v1/category-attributes', (req, res) => {
 })
 
 app.post('/product/202312/products/search', (req, res) => {
-  res.status(200).send({
-    code: 200,
-    status: 'OK',
-      data: searchProductsResponse
-  })
+  res.status(200).send(searchProductsResponse)
 })
 
 app.get('/product/202309/products/1730258731339712354', (req, res) => {
-  res.status(200).send({
-    code: 200,
-    status: 'OK',
-      data: productData1730258731339712354
-  })
-})
-
-app.get('/product/202309/products/1730258731339712354', (req, res) => {
-  res.status(200).send({
-    code: 200,
-    status: 'OK',
-      data: productData1730258731339712354
-  })
+  res.status(200).send(productData1730258731339712354)
 })
 
 app.get('/product/202309/products/1730208665281595234', (req, res) => {
-  res.status(200).send({
-    code: 200,
-    status: 'OK',
-      data: productData1730208665281595234
-  })
+  res.status(200).send(productData1730208665281595234)
 })
 
 app.get('/product/202309/products/1730481453239994210', (req, res) => {
-  res.status(200).send({
-    code: 200,
-    status: 'OK',
-      data: productData1730481453239994210
-  })
+  res.status(200).send(productData1730481453239994210)
 })
 
 // Start the server
