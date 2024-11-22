@@ -143,6 +143,482 @@ const categoryAttributes = [
   }
 ]
 
+const searchProductsResponse = {
+  code: 0,
+  data: {
+    next_page_token: "WzAsIjE3MzA0ODE0NTMyMzk5OTQyMTAiXQ==",
+    products: [
+      {
+        create_time: 1728455772,
+        id: "1730258731339712354",
+        is_not_for_sale: false,
+        recommended_categories: [],
+        sales_regions: ["ID"],
+        skus: [
+          {
+            id: "1730258812394899298",
+            inventory: [
+              {
+                quantity: 703,
+                warehouse_id: "7419669855966447366"
+              }
+            ],
+            price: {
+              currency: "IDR",
+              tax_exclusive_price: "75000"
+            },
+            seller_sku: "POLBLACK"
+          },
+          {
+            id: "1730258812394964834",
+            inventory: [
+              {
+                quantity: 393,
+                warehouse_id: "7419669855966447366"
+              }
+            ],
+            price: {
+              currency: "IDR",
+              tax_exclusive_price: "75000"
+            },
+            seller_sku: "POLWHITE"
+          },
+          {
+            id: "1730258812395030370",
+            inventory: [
+              {
+                quantity: 186,
+                warehouse_id: "7419669855966447366"
+              }
+            ],
+            price: {
+              currency: "IDR",
+              tax_exclusive_price: "75000"
+            },
+            seller_sku: "POLTERRA"
+          }
+        ],
+        status: "ACTIVATE",
+        title: "Kaos Polos Tipis Dingin Nyaman Pria dan Wanita - Oblong",
+        update_time: 1728456308
+      },
+      {
+        create_time: 1727694311,
+        id: "1730208665281595234",
+        is_not_for_sale: false,
+        recommended_categories: [],
+        sales_regions: ["ID"],
+        skus: [
+          {
+            id: "1730208664297637730",
+            inventory: [
+              {
+                quantity: 1,
+                warehouse_id: "7419669855966447366"
+              }
+            ],
+            price: {
+              currency: "IDR",
+              tax_exclusive_price: "1000"
+            },
+            seller_sku: "BOXSAMPLE"
+          }
+        ],
+        status: "FAILED",
+        title: "Sample Product Retail Ops Shop",
+        update_time: 1727694422
+      },
+      {
+        create_time: 1732070123,
+        id: "1730481453239994210",
+        is_not_for_sale: false,
+        recommended_categories: [],
+        sales_regions: ["ID"],
+        skus: [
+          {
+            id: "1730481446765758306",
+            inventory: [
+              {
+                quantity: 0,
+                warehouse_id: "7419669855966447366"
+              }
+            ],
+            seller_sku: ""
+          }
+        ],
+        status: "DRAFT",
+        title: "Adidas Footware Samba Man Indoesia Y-2029",
+        update_time: 1732070183
+      }
+    ],
+    total_count: 3
+  },
+  message: "Success",
+  request_id: "20241122023149B0FD47CAA8187405FC8F"
+};
+
+const productData1730258731339712354 = {
+  code: 0,
+  data: {
+    integrated_platform_statuses: [
+      {
+        platform: "TOKOPEDIA",
+        status: "ACTIVATE"
+      }
+    ],
+    category_chains: [
+      {
+        id: "824328",
+        is_leaf: false,
+        local_name: "Pakaian & Pakaian Dalam Pria",
+        parent_id: "0"
+      },
+      {
+        id: "839944",
+        is_leaf: false,
+        local_name: "Atasan Pria",
+        parent_id: "824328"
+      },
+      {
+        id: "601226",
+        is_leaf: true,
+        local_name: "T-shirt",
+        parent_id: "839944"
+      }
+    ],
+    create_time: 1728455772,
+    description: "<p>Kaos Polos Unisex Katun Tipis Dingin Nyaman adalah pilihan sempurna untuk gaya kasual sehari-hari Anda.</p><ul><li>Desain Unisex:</li><li>Sesuai untuk pria dan wanita, memberikan fleksibilitas dalam gaya berpakaian.</li></ul><p>Dibuat dari bahan katun tipis yang lembut dan nyaman di kulit, menjadikan kaos ini ideal untuk menemani aktivitas sehari-hari Anda.</p><ul><li>Dingin dan Nyaman:</li><li>Mampu menjaga kehangatan tubuh Anda tanpa membuat Anda merasa gerah.</li><li>Cocok untuk musim panas</li><li>Cocok untuk anda yang tinggal di kota panas seperti Jakarta Bekasi Surabaya</li></ul>",
+    id: "1730258731339712354",
+    is_cod_allowed: true,
+    is_not_for_sale: false,
+    is_pre_owned: false,
+    main_images: [
+      {
+        height: 720,
+        thumb_urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/038b2d0587934e4e9b3c0e96e60434b2~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/038b2d0587934e4e9b3c0e96e60434b2~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+        ],
+        uri: "tos-alisg-i-aphluv4xwc-sg/038b2d0587934e4e9b3c0e96e60434b2",
+        urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/038b2d0587934e4e9b3c0e96e60434b2~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/038b2d0587934e4e9b3c0e96e60434b2~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+        ],
+        width: 720
+      },
+      {
+        height: 700,
+        thumb_urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/1def4f88f5be47bbad15d3f94d80e20d~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/1def4f88f5be47bbad15d3f94d80e20d~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+        ],
+        uri: "tos-alisg-i-aphluv4xwc-sg/1def4f88f5be47bbad15d3f94d80e20d",
+        urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/1def4f88f5be47bbad15d3f94d80e20d~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/1def4f88f5be47bbad15d3f94d80e20d~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+        ],
+        width: 700
+      },
+      {
+        height: 800,
+        thumb_urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/2a9f39a31a1442d79ea872c7037e29fb~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/2a9f39a31a1442d79ea872c7037e29fb~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+        ],
+        uri: "tos-alisg-i-aphluv4xwc-sg/2a9f39a31a1442d79ea872c7037e29fb",
+        urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/2a9f39a31a1442d79ea872c7037e29fb~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/2a9f39a31a1442d79ea872c7037e29fb~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+        ],
+        width: 800
+      }
+    ]
+  }
+};
+
+const productData1730208665281595234 = {
+  code: 0,
+  data: {
+    integrated_platform_statuses: [
+      {
+        platform: "TOKOPEDIA",
+        status: "FAILED"
+      }
+    ],
+    audit_failed_reasons: [
+      {
+        listing_platform: "TIKTOK_SHOP",
+        position: "Product",
+        reasons: ["Insufficient or Incomplete Product Information"],
+        suggestions: [
+          "Sellers must ensure all product titles and descriptions contain complete information that accurately describes the product being sold. \n\nBefore listing, please ensure: \n(1) Your product title includes the name, brand, and model (if applicable) of your product. \n(2) Your product description has complete details such as material, size, quantity, color, design, product images, and any other relevant information customers may need to make an informed purchase."
+        ]
+      }
+    ],
+    brand: {
+      id: "7265141763801646854",
+      name: "\\bGozen"
+    },
+    category_chains: [
+      {
+        id: "600001",
+        is_leaf: false,
+        local_name: "Perlengkapan Rumah",
+        parent_id: "0"
+      },
+      {
+        id: "851848",
+        is_leaf: false,
+        local_name: "Home Organizer",
+        parent_id: "600001"
+      },
+      {
+        id: "852744",
+        is_leaf: true,
+        local_name: "Kantong Penyimpanan",
+        parent_id: "851848"
+      }
+    ],
+    create_time: 1727694311,
+    description: "<p><span>Penyimpanan yang nyaman dan cantik adalah kunci dari Produk Sample Retail Ops Shop ini.</span></p><ul><li><strong>Pengaturan:</strong> Toilet</li><li><strong>Kegunaan:</strong> Kebutuhan Rumah</li><li><strong>Kuantitas per Kemasan:</strong> 1</li></ul><p><span>Dibuat dari bahan katun yang berkualitas, tas penyimpanan ini menawarkan fitur dapat disesuaikan untuk memenuhi kebutuhan Anda.</span></p>",
+    id: "1730208665281595234",
+    is_cod_allowed: true,
+    is_not_for_sale: false,
+    is_pre_owned: false,
+    main_images: [
+      {
+        height: 900,
+        thumb_urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/4b8cc7949ba743b19b6404be9e6beb82~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/4b8cc7949ba743b19b6404be9e6beb82~tplv-aphluv4xwc-resize-jpeg:300:300.jpeg?from=520841845"
+        ],
+        uri: "tos-alisg-i-aphluv4xwc-sg/4b8cc7949ba743b19b6404be9e6beb82",
+        urls: [
+          "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/4b8cc7949ba743b19b6404be9e6beb82~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845",
+          "https://p19-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/4b8cc7949ba743b19b6404be9e6beb82~tplv-aphluv4xwc-origin-jpeg.jpeg?from=520841845"
+        ],
+        width: 900
+      }
+    ],
+    manufacturer_ids: [],
+    package_dimensions: {
+      height: "10",
+      length: "10",
+      unit: "CENTIMETER",
+      width: "10"
+    },
+    package_weight: {
+      unit: "KILOGRAM",
+      value: "0.001"
+    },
+    product_attributes: [
+      {
+        id: "100779",
+        name: "Pengaturan",
+        values: [
+          {
+            id: "1004368",
+            name: "Toilet"
+          }
+        ]
+      },
+      {
+        id: "100875",
+        name: "Kegunaan",
+        values: [
+          {
+            id: "1004502",
+            name: "Kebutuhan Rumah"
+          }
+        ]
+      },
+      {
+        id: "100347",
+        name: "Kuantitas per Kemasan",
+        values: [
+          {
+            id: "1000256",
+            name: "1"
+          }
+        ]
+      },
+      {
+        id: "100443",
+        name: "Fitur",
+        values: [
+          {
+            id: "1002432",
+            name: "Dapat Disesuaikan"
+          }
+        ]
+      },
+      {
+        id: "100701",
+        name: "Bahan",
+        values: [
+          {
+            id: "1000039",
+            name: "Katun"
+          }
+        ]
+      },
+      {
+        id: "100198",
+        name: "Pola",
+        values: [
+          {
+            id: "1004314",
+            name: "Cat Air"
+          }
+        ]
+      },
+      {
+        id: "100702",
+        name: "Jenis Wadah Penyimpanan",
+        values: [
+          {
+            id: "1004294",
+            name: "Dengan Tutup"
+          }
+        ]
+      },
+      {
+        id: "100398",
+        name: "Gaya",
+        values: [
+          {
+            id: "1004422",
+            name: "Antik"
+          }
+        ]
+      }
+    ],
+    recommended_categories: [],
+    responsible_person_ids: [],
+    skus: [
+      {
+        global_listing_policy: {
+          inventory_type: "EXCLUSIVE",
+          price_sync: false
+        },
+        id: "1730208664297637730",
+        inventory: [
+          {
+            quantity: 1,
+            warehouse_id: "7419669855966447366"
+          }
+        ],
+        pre_sale: {
+          fulfillment_type: {
+            handling_duration_days: 0
+          },
+          type: "PRE_ORDER"
+        },
+        price: {
+          currency: "IDR",
+          sale_price: "1000",
+          tax_exclusive_price: "1000"
+        },
+        sales_attributes: [],
+        seller_sku: "BOXSAMPLE"
+      }
+    ],
+    status: "FAILED",
+    title: "Sample Product Retail Ops Shop",
+    update_time: 1727694422
+  },
+  message: "Success",
+  request_id: "202411220242393CB0DC850C51ED06328F"
+};
+
+const productData1730481453239994210 = {
+  code: 0,
+  data: {
+    integrated_platform_statuses: [
+      {
+        platform: "TOKOPEDIA",
+        status: "DRAFT"
+      }
+    ],
+    category_chains: [
+      {
+        id: "601352",
+        is_leaf: false,
+        local_name: "Sepatu",
+        parent_id: "0"
+      },
+      {
+        id: "900616",
+        is_leaf: false,
+        local_name: "Sepatu Pria",
+        parent_id: "601352"
+      },
+      {
+        id: "601357",
+        is_leaf: true,
+        local_name: "Sepatu Kasual",
+        parent_id: "900616"
+      }
+    ],
+    create_time: 1732070123,
+    description: "<p>Stay stylish and comfortable with the Adidas Footware Samba Man Indonesia Y-2029. Perfect for casual events, these shoes offer great value for money.</p><ul><li>Durable Construction: Made to last through daily wear</li><li>Comfortable Fit: Ensures all-day comfort</li><li>Casual Style: Perfect for various casual occasions</li></ul>",
+    id: "1730481453239994210",
+    is_cod_allowed: false,
+    is_not_for_sale: false,
+    is_pre_owned: false,
+    main_images: [],
+    manufacturer_ids: [],
+    package_dimensions: {
+      height: "0",
+      length: "0",
+      unit: "CENTIMETER",
+      width: "0"
+    },
+    package_weight: {
+      unit: "KILOGRAM",
+      value: "1"
+    },
+    recommended_categories: [],
+    responsible_person_ids: [],
+    size_chart: {
+      template: {
+        id: "7423657180433532693"
+      }
+    },
+    skus: [
+      {
+        global_listing_policy: {
+          inventory_type: "EXCLUSIVE",
+          price_sync: false
+        },
+        id: "1730481446765758306",
+        inventory: [
+          {
+            quantity: 0,
+            warehouse_id: "7419669855966447366"
+          }
+        ],
+        pre_sale: {
+          fulfillment_type: {
+            handling_duration_days: 0
+          },
+          type: "PRE_ORDER"
+        },
+        sales_attributes: [],
+        seller_sku: ""
+      }
+    ],
+    status: "DRAFT",
+    title: "Adidas Footware Samba Man Indonesia Y-2029",
+    update_time: 1732070183
+  },
+  message: "Success",
+  request_id: "20241122030544A22EAD6247F13C069471"
+};
+
+
+
+
 // Parse JSON and url-encoded bodies
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -195,6 +671,46 @@ app.get('/v1/category-attributes', (req, res) => {
     code: 200,
     status: 'OK',
     data: categoryAttributes
+  })
+})
+
+app.get('/product/202312/products/search', (req, res) => {
+  res.status(200).send({
+    code: 200,
+    status: 'OK',
+      data: searchProductsResponse
+  })
+})
+
+app.get('/product/202309/products/1730258731339712354', (req, res) => {
+  res.status(200).send({
+    code: 200,
+    status: 'OK',
+      data: productData1730258731339712354
+  })
+})
+
+app.get('/product/202309/products/1730258731339712354', (req, res) => {
+  res.status(200).send({
+    code: 200,
+    status: 'OK',
+      data: productData1730258731339712354
+  })
+})
+
+app.get('/product/202309/products/1730208665281595234', (req, res) => {
+  res.status(200).send({
+    code: 200,
+    status: 'OK',
+      data: productData1730208665281595234
+  })
+})
+
+app.get('/product/202309/products/1730481453239994210', (req, res) => {
+  res.status(200).send({
+    code: 200,
+    status: 'OK',
+      data: productData1730481453239994210
   })
 })
 
