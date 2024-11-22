@@ -146,7 +146,7 @@ const categoryAttributes = [
 const searchProductsResponse = {
   code: 0,
   data: {
-    next_page_token: "WzAsIjE3MzA0ODE0NTMyMzk5OTQyMTAiXQ==",
+    next_page_token: "",
     products: [
       {
         create_time: 1728455772,
