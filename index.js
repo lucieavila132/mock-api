@@ -857,7 +857,7 @@ app.get('/v1/category-attributes', (req, res) => {
   })
 })
 
-app.get('/product/202312/products/search', (req, res) => {
+app.post('/product/202312/products/search', (req, res) => {
   res.status(200).send({
     code: 200,
     status: 'OK',
