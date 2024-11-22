@@ -260,6 +260,12 @@ const searchProductsResponse = {
 const productData1730258731339712354 = {
   code: 0,
   data: {
+     integrated_platform_statuses: [
+      {
+        platform: "TOKOPEDIA",
+        status: "ACTIVATE"
+      }
+    ],
     category_chains: [
       {
         id: "824328",
