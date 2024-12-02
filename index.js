@@ -805,6 +805,131 @@ const productData1730481453239994210 = {
   request_id: "20241122030544A22EAD6247F13C069471"
 };
 
+const orderData123456789 = {
+  "code": 0,
+  "data": {
+      "orders": [
+          {
+              "buyer_email": "v4bG2U6HLXZJKP5ENVJMNID56GB2E@scs2.tiktok.com",
+              "buyer_message": "",
+              "cancel_order_sla_time": 1733158799,
+              "collection_due_time": 1733245199,
+              "commerce_platform": "SHOP_TOKOPEDIA",
+              "create_time": 1732794097,
+              "delivery_option_id": "6956553057215710977",
+              "delivery_option_name": "Standard shipping",
+              "delivery_type": "HOME_DELIVERY",
+              "fulfillment_type": "FULFILLMENT_BY_SELLER",
+              "has_updated_recipient_address": false,
+              "id": "579689241289132043",
+              "is_cod": false,
+              "is_on_hold_order": false,
+              "is_replacement_order": false,
+              "is_sample_order": false,
+              "line_items": [
+                  {
+                      "buyer_service_fee": "1000",
+                      "currency": "IDR",
+                      "display_status": "AWAITING_SHIPMENT",
+                      "id": "579689241289394186",
+                      "is_gift": false,
+                      "original_price": "75000",
+                      "package_id": "1158747041170556938",
+                      "package_status": "TO_FULFILL",
+                      "platform_discount": "0",
+                      "product_id": "1730258731339712354",
+                      "product_name": "Kaos Polos Tipis Dingin Nyaman Pria dan Wanita - Oblong",
+                      "sale_price": "75000",
+                      "seller_discount": "0",
+                      "seller_sku": "POLBLACK",
+                      "shipping_provider_id": "6617675021119438849",
+                      "shipping_provider_name": "TT Virtual JNT express",
+                      "sku_id": "1730258812394899298",
+                      "sku_image": "https://p16-oec-sg.ibyteimg.com/tos-alisg-i-aphluv4xwc-sg/71d54d094f0e47468cc9c18524c23f28~tplv-aphluv4xwc-origin-jpeg.jpeg?from=1413970683",
+                      "sku_name": "Hitam",
+                      "sku_type": "NORMAL",
+                      "tracking_number": ""
+                  }
+              ],
+              "packages": [
+                  {
+                      "id": "1158747041170556938"
+                  }
+              ],
+              "paid_time": 1732794097,
+              "payment": {
+                  "buyer_service_fee": "1000",
+                  "currency": "IDR",
+                  "original_shipping_fee": "500",
+                  "original_total_product_price": "75000",
+                  "platform_discount": "0",
+                  "seller_discount": "0",
+                  "shipping_fee": "500",
+                  "shipping_fee_platform_discount": "0",
+                  "shipping_fee_seller_discount": "0",
+                  "sub_total": "75000",
+                  "tax": "0",
+                  "total_amount": "76500"
+              },
+              "payment_method_name": "Credit Card/Debit Card",
+              "recipient_address": {
+                  "address_detail": "Su******************************************************************************************",
+                  "address_line1": "Su******************************************************************************************",
+                  "address_line2": "",
+                  "address_line3": "",
+                  "address_line4": "",
+                  "district_info": [
+                      {
+                          "address_level": "L0",
+                          "address_level_name": "Country",
+                          "address_name": "Indonesia"
+                      },
+                      {
+                          "address_level": "L1",
+                          "address_level_name": "province",
+                          "address_name": "Jakarta"
+                      },
+                      {
+                          "address_level": "L2",
+                          "address_level_name": "city",
+                          "address_name": "South Jakarta"
+                      },
+                      {
+                          "address_level": "L3",
+                          "address_level_name": "Sub-district",
+                          "address_name": "Se*******"
+                      },
+                      {
+                          "address_level": "L4",
+                          "address_level_name": "Urban Community",
+                          "address_name": "Se********"
+                      }
+                  ],
+                  "first_name": "",
+                  "full_address": "Indonesia, Jakarta, South Jakarta, Se*******, Se********,Su******************************************************************************************",
+                  "last_name": "",
+                  "name": "a***",
+                  "phone_number": "(+86)123******43",
+                  "postal_code": "",
+                  "region_code": "ID"
+              },
+              "rts_sla_time": 1732813199,
+              "shipping_due_time": 1733158799,
+              "shipping_provider": "TT Virtual JNT express",
+              "shipping_provider_id": "6617675021119438849",
+              "shipping_type": "TIKTOK",
+              "status": "AWAITING_SHIPMENT",
+              "tts_sla_time": 1732899599,
+              "update_time": 1732794217,
+              "user_id": "7495499109337171978",
+              "warehouse_id": "7419669855966447366"
+          }
+      ]
+  },
+  "message": "Success",
+  "request_id": "202412021026421BC3090B944E702977CD"
+}
+
 
 
 
@@ -877,6 +1002,10 @@ app.get('/product/202309/products/1730208665281595234', (req, res) => {
 
 app.get('/product/202309/products/1730481453239994210', (req, res) => {
   res.status(200).send(productData1730481453239994210)
+})
+
+app.get('/order/202309/orders/dummy', (req, res) => {
+  res.status(200).send(orderData123456789)
 })
 
 // Start the server
