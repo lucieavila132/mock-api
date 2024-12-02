@@ -814,7 +814,7 @@ const orderData123456789 = {
               "buyer_message": "",
               "cancel_order_sla_time": 1733158799,
               "collection_due_time": 1733245199,
-              "commerce_platform": "SHOP_TOKOPEDIA",
+              "commerce_platform": "TOKOPEDIA",
               "create_time": 1732794097,
               "delivery_option_id": "6956553057215710977",
               "delivery_option_name": "Standard shipping",
